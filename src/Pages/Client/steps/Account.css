@@ -1,0 +1,33 @@
+.info1 {
+    display: inline-block;
+}
+
+.username_format {
+  display: none;
+  left: 30%;
+  z-index: 999;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  width: 30%;
+  border: 0.5px solid grey;
+}
+
+.info1:hover + .username_format {
+display: block;
+}
+
+.info2 {
+    display: inline-block;
+}
+
+.password_format {
+    display: none;
+    left: 30%;
+    z-index: 999;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    border: 0.5px solid grey;
+  }
+
+  .info2:hover + .password_format {
+    display: block;
+    }

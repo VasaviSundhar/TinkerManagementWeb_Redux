@@ -1,0 +1,25 @@
+.imageCss {
+    background-position: 50%;
+    background-image: url('./images/housebuilding.jpg');
+    height: 350px;
+}
+
+.headerContainer {
+    max-width: 1200px; /* Adjust the value to your preference */
+  }
+
+.loginButton {
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+  }
+
+.loginButton:hover {
+  border: 1px solid #008cbb;
+    transform: scale(1.15);
+}
+
+.headerLink:hover {
+  border: 1px solid #008cbb;
+  border-radius: 2px;
+  transform: scale(1.15);
+}
